@@ -41,8 +41,6 @@ def midpoint_circle(r, xc=0, yc=0):
 
     return xes, yes
 
-
-# -------- Main Program --------
 if __name__ == "__main__":
     r = int(input("Enter radius: "))
     xc = int(input("Enter center x: "))

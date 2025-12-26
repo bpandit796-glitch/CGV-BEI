@@ -41,12 +41,10 @@ def midpoint_circle(r, xc, yc):
 
     return xes, yes
 
-
-# -------- Main Program --------
 if __name__ == "__main__":
 
-    xc, yc = 0, 0          # common center
-    radii = [20, 40, 60, 80, 100]   # different radii
+    xc, yc = 0, 0        
+    radii = [20, 40, 60, 80, 100]  
 
     plt.figure()
 

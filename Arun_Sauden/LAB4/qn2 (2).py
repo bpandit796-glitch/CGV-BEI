@@ -42,11 +42,10 @@ def midpoint_circle(r, xc, yc):
     return xes, yes
 
 
-# -------- Main Program --------
 if __name__ == "__main__":
 
     circles = [
-        (30, 0, 0),      # radius, xc, yc
+        (30, 0, 0),     
         (50, 80, 80),
         (20, -60, 40),
         (40, -80, -60),
